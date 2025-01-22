@@ -9,7 +9,7 @@ LiquidCrystal_I2C lcd(0x27, 20, 4);
 // WiFi настройки
 const char* ssid = "name";           // Имя вашей сети Wi-Fi
 const char* password = "12345678";   // Пароль от вашей сети Wi-Fi
-const char* apiUrl = "https://api.tricko.pro/voxiom/player/Generator"; //  /voxiom/player/NICK
+const char* apiUrl = "https://api.tricko.pro/voxiom/player/Generator?log=gena"; //  /player/NICK?log=NICK
 
 
 void connectToWiFi()
